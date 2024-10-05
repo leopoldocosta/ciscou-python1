@@ -1,3 +1,5 @@
+## simple netmiko example for beginners
+
 import netmiko
 
 ip = "192.168.0.15"
