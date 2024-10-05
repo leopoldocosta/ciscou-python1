@@ -1,4 +1,4 @@
-## simple netmiko example for beginners
+# simple netmiko example for beginners
 
 import netmiko
 
