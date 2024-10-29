@@ -12,4 +12,5 @@ ip_three_octets = '10.254.0.'
 
 ip = '10.254.0.1'
 device_type = 'cisco_ios'
-print(f'The router at {ip} is running {device_type}')
+# print(f'The router at {ip} is running {device_type}')
+print(f"Connection Info\n{'_'*30}\nIP:\t\t{ip}\nDevice Type:\t{device_type}")
