@@ -15,4 +15,6 @@ device_type = 'cisco_ios'
 # print(f'The router at {ip} is running {device_type}')
 # print(f"Connection Info\n{'_'*30}\nIP:\t\t{ip}\nDevice Type:\t{device_type}")
 
-print(device_type.upper())
+# print(device_type.upper())
+print(device_type.replace('_', ' '))
+print(device_type.upper().replace('_', ' '))
