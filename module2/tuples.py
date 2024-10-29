@@ -26,3 +26,8 @@ for ip in ip_tuple:
     output_list.append(output_tuple)
 
 pprint.pprint(output_list)
+
+# student@student-vm:~/lab_work$ python tuples.py
+# [('hostname csr1kv1', 'Cisco IOS XE Software, Version 17.09.01a'),
+#  ('hostname csr1kv2', 'Cisco IOS XE Software, Version 17.09.01a'),
+#  ('hostname csr1kv3', 'Cisco IOS XE Software, Version 17.09.01a')]
